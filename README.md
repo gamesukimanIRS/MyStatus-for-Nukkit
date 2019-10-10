@@ -21,7 +21,7 @@ EconomySystemAPIは、[こちら](https://github.com/tedo0627/Horizon-2nd)の[�
 |コマンド|説明|初期値|権限|
 |:-:|:--|:--|:-:|
 |`/setmessage1`|ステータス上部の文字列を変更します。|MyStatus|OP|
-|`/setmessage1`|画面上部の文字列を変更します。|このメッセージ・ステータスはMyStatus for Nukkitが表示しています。|OP|
+|`/setmessage2`|画面上部の文字列を変更します。|このメッセージ・ステータスはMyStatus for Nukkitが表示しています。|OP|
 
 ##### Config
 メッセージ設定ファイルとして、`message.yml`が生成されます。  
