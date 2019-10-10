@@ -1,5 +1,6 @@
 # MyStatus-for-Nukkit
 自分のステータスを画面下部に表示します。
+[Download](https://github.com/gamesukimanIRS/MyStatus-for-Nukkit/releases/tag/v1.0.0)
 
 ![画像0](picture/IMG_1368.PNG)
 ![画像1](picture/IMG_1364.PNG)
