@@ -29,6 +29,7 @@ EconomySystemAPIは、[こちら](https://github.com/tedo0627/Horizon-2nd)の[�
 Message1: MyStatus
 Message2: このメッセージ・ステータスはMyStatus for Nukkitが表示しています。
 ```
+値を変えると、メッセージを変更することができます。  
 Messageの1、2については各部の説明を参考にしてください。
 
 ##### 使用している機能
