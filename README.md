@@ -10,8 +10,10 @@
 自分の名前、自分の所持金、現在時刻、自分の現在地を画面下部に表示します。  
 また、画面上部にお知らせを掲示したり、ステータスの上部にメッセージを付け加えたりできます。  
 
-所持金はEonomySystemの所持金で、前提プラグインとしてEconomySystemが必要になります。  
-EconomySystemは、[こちら](https://github.com/tedo0627/Horizon-2nd)からダウンロードできます。  
+所持金はEonomySystemの所持金で、前提プラグインとしてEconomySystemAPIが必要になります。  
+EconomySystemAPIは、[こちら](https://github.com/tedo0627/Horizon-2nd)の[ここ](https://github.com/tedo0627/Horizon-2nd/blob/master/Plugins/EconomySystemAPI.jar)からダウンロードできます。  
+  
+各部の説明  
 ![画像2](picture/IMG_1367.PNG)
 
 ##### コマンド
