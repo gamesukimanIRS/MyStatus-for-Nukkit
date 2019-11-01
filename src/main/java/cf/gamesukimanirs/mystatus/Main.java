@@ -112,25 +112,25 @@ public class Main extends PluginBase implements Listener{
 				long pm = this.economy.getMoney(player.getName());
 				String pm2 = String.valueOf(pm);
 				player.sendTip
-				("							§b["+msg1+"§r§b] Name: " + player.getName() + "\n"
-						+ "			  				§e所持金: §f¥" + pm2 + "\n"
-						+ "	  						§a現在時刻: §f" + new SimpleDateFormat("yyyy年MM月dd日HH時mm分ss秒").format(Calendar.getInstance().getTime()) + "\n"
-						+ "	  						§7所持アイテムのID: §f" + player.getInventory().getItemInHand().getId() + ":" + player.getInventory().getItemInHand().getDamage() + "\n"
-						+ "	  						§6現在地: §2ワールド: §f" + player.getLevel().getName() + "\n"
-						+ "	          						§cX: §f" + Math.round(player.getX()) + "\n"
-						+ "           						 §2Y: §f" + Math.round(player.getY()) + "\n"
-						+ "           						 §9Z: §f" + Math.round(player.getZ()) + "\n\n\n");
+				("                          §b["+msg1+"§r§b] Name: " + player.getName() + "\n"
+						+ "                         §e所持金: §f¥" + pm2 + "\n"
+						+ "                         §a現在時刻: §f" + new SimpleDateFormat("yyyy年MM月dd日HH時mm分ss秒").format(Calendar.getInstance().getTime()) + "\n"
+						+ "                         §7所持アイテムのID: §f" + player.getInventory().getItemInHand().getId() + ":" + player.getInventory().getItemInHand().getDamage() + "\n"
+						+ "                         §6現在地: §2ワールド: §f" + player.getLevel().getName() + "\n"
+						+ "                                  §cX: §f" + Math.round(player.getX()) + "\n"
+						+ "                                  §2Y: §f" + Math.round(player.getY()) + "\n"
+						+ "                                  §9Z: §f" + Math.round(player.getZ()) + "\n\n\n");
 				player.sendActionBar("§l§aメッセージ: §f" + msg2 + "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 			}catch(NullPointerException e) {
 				player.sendTip
-				("							§b["+msg1+"§r§b] Name: " + player.getName() + "\n"
-						+ "			  				§e所持金: §fおおがねもちだとおもいます(取得失敗)\n"
-						+ "	  						§a現在時刻: §f" + new SimpleDateFormat("yyyy年MM月dd日HH時mm分ss秒").format(Calendar.getInstance().getTime()) + "\n"
-						+ "	  						§7所持アイテムのID: §f" + player.getInventory().getItemInHand().getId() + ":" + player.getInventory().getItemInHand().getDamage() + "\n"
-						+ "	  						§6現在地: §dワールド: §f" + player.getLevel().getName() + "\n"
-						+ "	          						§cX: §f" + Math.round(player.getX()) + "\n"
-						+ "           						 §2Y: §f" + Math.round(player.getY()) + "\n"
-						+ "           						 §9Z: §f" + Math.round(player.getZ()) + "\n\n\n");
+				("                          §b["+msg1+"§r§b] Name: " + player.getName() + "\n"
+						+ "                         §e所持金: §fおおがねもちだとおもいます(取得失敗)\n"
+						+ "                         §a現在時刻: §f" + new SimpleDateFormat("yyyy年MM月dd日HH時mm分ss秒").format(Calendar.getInstance().getTime()) + "\n"
+						+ "                         §7所持アイテムのID: §f" + player.getInventory().getItemInHand().getId() + ":" + player.getInventory().getItemInHand().getDamage() + "\n"
+						+ "                         §6現在地: §2ワールド: §f" + player.getLevel().getName() + "\n"
+						+ "                                  §cX: §f" + Math.round(player.getX()) + "\n"
+						+ "                                  §2Y: §f" + Math.round(player.getY()) + "\n"
+						+ "                                  §9Z: §f" + Math.round(player.getZ()) + "\n\n\n");
 				player.sendActionBar("§l§aメッセージ: §f" + msg2 + "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 			}
 		});
