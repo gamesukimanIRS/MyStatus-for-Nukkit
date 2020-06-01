@@ -12,6 +12,7 @@
 これらのメッセージ・お知らせは、Config又はコマンドで変更できます。  
   
 表示する所持金はConfigで[EonomySystem](https://github.com/tedo0627/Horizon-2nd/blob/master/Plugins/EconomySystemAPI.jar)([配布先](https://github.com/tedo0627/Horizon-2nd))、[Ecokkit](https://forum.mcbe.jp/resources/476/)、[MoneySAPI](https://github.com/CoSSeDevelopmentTeam/MoneySAPI/releases)から選択でき、表示しないことも可能です。  
+※初期設定では表示なしとなっています。   
 ![画像1.5](picture/200pic5.png)  
   
 ##### 各部の説明   
